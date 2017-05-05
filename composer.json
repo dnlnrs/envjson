@@ -1,0 +1,15 @@
+{
+    "name": "dnlnrs/envjson",
+    "description": "Loads `env.json` file contents into $_ENV to populate the environment variables.",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Daniele Lenares",
+            "email": "daniele.lenares@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    }
+}
