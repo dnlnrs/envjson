@@ -2,7 +2,7 @@
     "name": "dnlnrs/envjson",
     "description": "Loads `env.json` file contents into $_ENV to populate the environment variables.",
     "type": "library",
-    "license": "GPL",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Daniele Lenares",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dnlrns\\Envjson": "src/"
+            "dnlrns\\Envjson\\": "src/"
         }
     }
 }
