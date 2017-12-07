@@ -1,3 +1,7 @@
+## FOLDERS
+vendor/
+.idea/
+
+## FILES
 composer.phar
-/vendor/
-/.idea/
+.DS_Store
