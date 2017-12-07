@@ -1,8 +1,8 @@
 <?php
 
-namespace dnlnrs;
+namespace dnlnrs\Envjson;
 
-class Envjson {
+class Loader {
 
     /**
      * File path.
