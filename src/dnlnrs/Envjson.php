@@ -1,6 +1,6 @@
 <?php
 
-namespace Envjson;
+namespace dnlnrs;
 
 class Envjson {
 
@@ -46,8 +46,14 @@ class Envjson {
         $this->variables = array();
     }
 
+    /**
+     * Loader method.
+     *
+     * @return bool
+     * @throws \Exception
+     */
     public function load() {
-        if(!$this->checkFileExistance()) {
+        if(!$this->checkFileExistence()) {
             throw new \Exception('Specified file does not exists.');
         }
 
@@ -77,7 +83,7 @@ class Envjson {
      *
      * @return bool
      */
-    private function checkFileExistance() {
+    private function checkFileExistence() {
         $exists = file_exists($this->full_path);
         return $exists;
     }
