@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dnlrns\\Envjson\\": "src/"
+            "dnlnrs\\Envjson\\": "src/"
         }
     }
 }
