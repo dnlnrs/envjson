@@ -2,6 +2,8 @@
 
 Loads `env.json` file contents into php `$_ENV` global variable.
 
+[![Build Status](https://travis-ci.org/dnlnrs/envjson.svg?branch=master)](https://travis-ci.org/dnlnrs/envjson)
+
 ## Installation
 Simply add the library to your `composer.json`
 ```
