@@ -3,5 +3,6 @@ vendor/
 .idea/
 
 ## FILES
+composer.lock
 composer.phar
 .DS_Store
